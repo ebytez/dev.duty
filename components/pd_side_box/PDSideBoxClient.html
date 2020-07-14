@@ -1,0 +1,149 @@
+<!DOCTYPE f8component>
+
+<definition>
+	{
+		"id": "pd_side_box",
+		"label": "PD Side Box",
+		"renderable": "true",
+		"className": "PDSideBoxServer",
+	    dependencies: ["vue"]	
+	}
+</definition>
+
+<attributes>
+[
+	{
+		name: "title",
+		label: "Title",
+		type: "string",
+		attributes: {
+			placeholder_text: "Your title"
+		}
+	},
+	{
+		name: "title_style",
+		label: "Title style",
+		type: "choice",
+		attributes: {
+			choices: [
+				{ label: "None", value: "none" },
+				{ label: "Normal", value: "normal" },
+				{ label: "Compact", value: "compact" }
+			]
+		}
+	},
+	{
+		name: "mode",
+		label: "Mode",
+		type: "choice",
+		attributes: {
+			choices: [
+				{ label: "Next steps", value: "next_steps" },
+				{ label: "Next on call", value: "next_on_call" },
+				{ label: "Help", value: "help" }
+			]
+		}
+	}	
+]
+</attributes>
+
+<attributes_layout>
+	[
+		"title",
+		"title_style",
+		"mode"
+	]
+</attributes_layout>
+
+<style>
+	.pd-side-box {
+		background: var(--color-lightest);
+		border: 1px solid var(--color-light);
+		border-radius: var(--border-radius);
+		padding: 15px;
+		margin: 6px 15px;
+	}
+	
+	.box-title-normal {
+		font-size: var(--font-size-xl);
+	}
+	
+	.box-title-compact {
+		text-transform: uppercase;
+	}
+	
+	.pd-side-box .next-steps-new-service button {
+		margin-top: 12px;
+		padding: 6px 10px;
+		width: 100%;
+		background: white;
+		border: 1px solid var(--color-medark);
+		border-radius: var(--border-radius-lg);
+		box-shadow: 0 2px 1px 0 #E5E5E5;
+	}
+	
+	.pd-side-box .timeline {
+		margin-top: 15px;
+		position: relative;
+	}
+	
+	.pd-side-box .timeline__line {
+		margin-left: 3px;
+		border-left: 1px dashed #333;
+		font-size: 14px;
+	    line-height: 18px;
+		height: 10px;
+	}
+	
+	.timeline, .timeline__shift {
+    	position: relative;
+	}
+	
+	.timeline__block {
+		position: absolute;
+		left: 0;
+		width: 8px;
+		height: 99%;
+		background-repeat: repeat-x;
+	    border-radius: 20px;
+	}
+	
+	.timeline__block--not-on-call {
+		border: 1px dashed #333;
+		background-image: none;
+		background-color: #fff;
+	}
+	
+	.timeline__shift .shift__not-on-call {
+    	padding: 10px 10px 10px 20px;
+		margin-left: 0;
+		line-height: initial;
+		font-size: 13px;
+	}
+	
+	.help-title {
+		margin-bottom: 8px;
+	}
+	
+	.help-title:not(:first-of-type) {
+		margin-top: 8px;
+	}
+	
+	.knowledge-article {
+		padding-left: 4px;
+	}
+	
+	.knowledge-link {
+		margin-top: 2px;
+	}
+	
+	.knowledge-article a {
+		color: var(--table-link-color);
+		text-decoration: none;
+	}
+</style>
+
+<script>
+    const PDBoxComponent = require('pd_side_box/PDBoxComponent');
+    exports.component = ComponentUI.createVueComponent(PDBoxComponent, 4);
+</script>

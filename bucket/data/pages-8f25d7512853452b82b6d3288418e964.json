@@ -1,0 +1,550 @@
+{
+  "bucket_data": {
+    "pages": {
+      "8f25d7512853452b82b6d3288418e964": {
+        "created": "1593464949342",
+        "id": "8f25d7512853452b82b6d3288418e964",
+        "layout": {
+          "config": {
+            "desktop": {
+              "label": "Desktop"
+            },
+            "mobile": {
+              "label": "Mobile"
+            }
+          },
+          "layouts": {
+            "desktop": {
+              "__start__": {
+                "contains": [
+                  "container_11594a9ee85c4cc749dd4bcb4fd71274",
+                  "component_90149531a8b10b19c9271bcfc4495504"
+                ],
+                "h": "100%",
+                "icon": "fontawesome:columns",
+                "id": "__start__",
+                "label": "Incident",
+                "layout_type": "page_components",
+                "subContainers": [ ],
+                "type": "container",
+                "w": "100%"
+              },
+              "component_8f313bb6af1bb288118396b639003032": {
+                "attributes": {
+                  "advanced": false,
+                  "alt_text_slot": "description",
+                  "bucket": "srqk6j6s",
+                  "component": "title",
+                  "created_slot": "created",
+                  "csstags": "",
+                  "id": "aa943b9ac13f903f725febbf378b4e45",
+                  "number_slot": "number",
+                  "pull_values_from_slots": true,
+                  "requester_slot": "requested_by",
+                  "show_lifecycle": true,
+                  "template": "standard",
+                  "title_slot": "title"
+                },
+                "component": "title",
+                "h": "21%",
+                "id": "component_8f313bb6af1bb288118396b639003032",
+                "name": "component_8f313bb6af1bb288118396b639003032",
+                "needs_subpage_target": false,
+                "page_loading": false,
+                "type": "component",
+                "w": "100%"
+              },
+              "component_90149531a8b10b19c9271bcfc4495504": {
+                "attributes": {
+                  "__raw": {
+                    "query": "%{pageVars.q}"
+                  },
+                  "auto_save": true,
+                  "bucket": "lv9qpbsc",
+                  "component": "details",
+                  "csstags": "",
+                  "id": "058a8165524616641fd14dc9a466cbf6",
+                  "include_actions": "1",
+                  "include_schema_layouts": "",
+                  "layout": {
+                    "layout": {
+                      "layout": [
+                        {
+                          "colData": [
+                            {
+                              "column": 0,
+                              "guid": "6cu018",
+                              "hidden": "[]",
+                              "title": "Details"
+                            }
+                          ],
+                          "cols": [
+                            [
+                              {
+                                "name": "service",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "category",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "subcategory",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "assignment_group",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "assignment_user",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "time_to_response",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "time_to_resolution",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "resolution_code",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "resolution_notes",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "impact",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "urgency",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "priority",
+                                "type": "slot"
+                              }
+                            ]
+                          ],
+                          "columns": 1,
+                          "guid": "a5h8hj",
+                          "type": "section"
+                        },
+                        {
+                          "colData": [
+                            {
+                              "column": 0,
+                              "guid": "dxhu3z",
+                              "hidden": "[]",
+                              "title": "Relationships"
+                            }
+                          ],
+                          "cols": [
+                            [
+                              {
+                                "auto_hide_sections": "non_common",
+                                "guid": "m99msd",
+                                "hide_bucket_in_title": true,
+                                "hide_empty": true,
+                                "type": "relationships"
+                              }
+                            ]
+                          ],
+                          "columns": 1,
+                          "guid": "sqppzg",
+                          "type": "section"
+                        }
+                      ],
+                      "pageData": {
+                        "templateClass": "summarizer_widgets"
+                      },
+                      "version": 1
+                    }
+                  },
+                  "new_record": "false",
+                  "new_record_values": "[]",
+                  "query": "%{pageVars.q}",
+                  "read_only": "false"
+                },
+                "component": "details",
+                "h": "100%",
+                "id": "component_90149531a8b10b19c9271bcfc4495504",
+                "name": "component_90149531a8b10b19c9271bcfc4495504",
+                "needs_subpage_target": false,
+                "type": "component",
+                "w": "300"
+              },
+              "component_f05a45320b2a31e74db3e69d57b18ec1": {
+                "attributes": {
+                  "component": "work_activity_log",
+                  "create_bar_always_visible": true,
+                  "csstags": "",
+                  "hide_filters": false,
+                  "id": "71ff8c2b4b3d7e013e5990d6878aa8f4",
+                  "templates_bucket": "pd773rrr"
+                },
+                "component": "work_activity_log",
+                "h": "79%",
+                "id": "component_f05a45320b2a31e74db3e69d57b18ec1",
+                "name": "component_f05a45320b2a31e74db3e69d57b18ec1",
+                "needs_subpage_target": false,
+                "page_loading": false,
+                "type": "component",
+                "w": "100%"
+              },
+              "container_11594a9ee85c4cc749dd4bcb4fd71274": {
+                "contains": [
+                  "component_8f313bb6af1bb288118396b639003032",
+                  "component_f05a45320b2a31e74db3e69d57b18ec1"
+                ],
+                "h": "100%",
+                "type": "container",
+                "w": "FILL"
+              },
+              "container_65a76fee02da0fb7787e34c540ec3ed5": {
+                "contains": [ ],
+                "icon": "fontawesome:comment-o",
+                "id": "container_65a76fee02da0fb7787e34c540ec3ed5",
+                "label": "Speaks",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_6b74ff30d5acc2564432ba37690ce33c": {
+                "contains": [ ],
+                "id": "container_6b74ff30d5acc2564432ba37690ce33c",
+                "label": "Files",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_810a8f54467e3fb06d8c1bf3a9ef86b6": {
+                "contains": [ ],
+                "id": "container_810a8f54467e3fb06d8c1bf3a9ef86b6",
+                "label": "Tools",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_a36e2b6aaf86a9a3ca0a6b07c43d87d5": {
+                "contains": [ ],
+                "id": "container_a36e2b6aaf86a9a3ca0a6b07c43d87d5",
+                "label": "Speaks",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_b306d607a5196cb099e356e5bdd90d34": {
+                "contains": [ ],
+                "id": "container_b306d607a5196cb099e356e5bdd90d34",
+                "label": "Conversation",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_fe52ca07d6f940b51fc017383b5fc43d": {
+                "contains": [ ],
+                "icon": "fontawesome:paperclip",
+                "id": "container_fe52ca07d6f940b51fc017383b5fc43d",
+                "label": "Attachments",
+                "subContainer": true,
+                "type": "container"
+              }
+            },
+            "mobile": {
+              "__start__": {
+                "contains": [
+                  "component_7c8629e9f91fec09de6585d9fecb23f2",
+                  "component_bb283008b1772effcfd4eb3676f22d9d",
+                  "component_82acbe3460abc795da294f12f9f1ef0f"
+                ],
+                "h": "100%",
+                "icon": "fontawesome:columns",
+                "id": "__start__",
+                "label": "Incident",
+                "layout_type": "page_components",
+                "subContainers": [ ],
+                "type": "container",
+                "w": "100%"
+              },
+              "component_7c8629e9f91fec09de6585d9fecb23f2": {
+                "attributes": {
+                  "advanced": false,
+                  "bucket": "third_party_license",
+                  "component": "title",
+                  "show_lifecycle": true,
+                  "title_slot": "bundle"
+                },
+                "component": "title",
+                "h": "33%",
+                "id": "component_7c8629e9f91fec09de6585d9fecb23f2",
+                "name": "component_7c8629e9f91fec09de6585d9fecb23f2",
+                "needs_subpage_target": false,
+                "page_loading": false,
+                "type": "component",
+                "w": "100%"
+              },
+              "component_82acbe3460abc795da294f12f9f1ef0f": {
+                "attributes": {
+                  "component": "work_activity_log",
+                  "hide_filters": false,
+                  "templates_bucket": "pd773rrr"
+                },
+                "component": "work_activity_log",
+                "h": "57%",
+                "id": "component_82acbe3460abc795da294f12f9f1ef0f",
+                "name": "component_82acbe3460abc795da294f12f9f1ef0f",
+                "needs_subpage_target": false,
+                "page_loading": false,
+                "type": "component",
+                "w": "100%"
+              },
+              "component_bb283008b1772effcfd4eb3676f22d9d": {
+                "attributes": {
+                  "__raw": {
+                    "query": "%{pageVars.q}"
+                  },
+                  "auto_save": true,
+                  "bucket": "srqk6j6s",
+                  "component": "details",
+                  "csstags": "",
+                  "id": "058a8165524616641fd14dc9a466cbf6",
+                  "include_actions": "1",
+                  "layout": {
+                    "layout": {
+                      "layout": [
+                        {
+                          "colData": [
+                            {
+                              "column": 0,
+                              "guid": "6cu018",
+                              "hidden": "[]",
+                              "title": "Details"
+                            }
+                          ],
+                          "cols": [
+                            [
+                              {
+                                "name": "category",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "subcategory",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "assignment_group",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "assignment_user",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "configuration_item",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "time_to_response",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "time_to_resolution",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "resolution_code",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "resolution_notes",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "impact",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "urgency",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "priority",
+                                "type": "slot"
+                              }
+                            ]
+                          ],
+                          "columns": 1,
+                          "guid": "a5h8hj",
+                          "type": "section"
+                        },
+                        {
+                          "colData": [
+                            {
+                              "column": 0,
+                              "guid": "dxhu3z",
+                              "hidden": "[]",
+                              "title": "Relationships"
+                            }
+                          ],
+                          "cols": [
+                            [
+                              {
+                                "auto_hide_sections": "non_common",
+                                "guid": "m99msd",
+                                "hide_bucket_in_title": true,
+                                "hide_empty": true,
+                                "type": "relationships"
+                              }
+                            ]
+                          ],
+                          "columns": 1,
+                          "guid": "sqppzg",
+                          "type": "section"
+                        }
+                      ],
+                      "pageData": {
+                        "templateClass": "summarizer_widgets"
+                      },
+                      "version": 1
+                    }
+                  },
+                  "new_record": "false",
+                  "new_record_values": "[]",
+                  "query": "[\"id\",\"eq\",\"5f815c93fe9a4bc285d7b4681c918834\"]",
+                  "read_only": "false"
+                },
+                "component": "details",
+                "h": "10%",
+                "id": "component_bb283008b1772effcfd4eb3676f22d9d",
+                "name": "component_bb283008b1772effcfd4eb3676f22d9d",
+                "needs_subpage_target": false,
+                "type": "component",
+                "w": "100%"
+              },
+              "container_0907b81020011048fd4e188181676829": {
+                "contains": [ ],
+                "icon": "fontawesome:paperclip",
+                "id": "container_0907b81020011048fd4e188181676829",
+                "label": "Attachments",
+                "name": "container_0907b81020011048fd4e188181676829",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_440dffc4f6de63cee919df75d5891f22": {
+                "contains": [ ],
+                "id": "container_440dffc4f6de63cee919df75d5891f22",
+                "label": "Speaks",
+                "name": "container_440dffc4f6de63cee919df75d5891f22",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_73227ab4e3652632233805dbc874c406": {
+                "contains": [ ],
+                "id": "container_73227ab4e3652632233805dbc874c406",
+                "label": "Conversation",
+                "name": "container_73227ab4e3652632233805dbc874c406",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_bc5e8d08c4038d9d25e832849a89b175": {
+                "contains": [ ],
+                "id": "container_bc5e8d08c4038d9d25e832849a89b175",
+                "label": "Tools",
+                "name": "container_bc5e8d08c4038d9d25e832849a89b175",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_ca2bbcf89dfd51e7a2c1b12115251293": {
+                "contains": [ ],
+                "id": "container_ca2bbcf89dfd51e7a2c1b12115251293",
+                "label": "Files",
+                "name": "container_ca2bbcf89dfd51e7a2c1b12115251293",
+                "subContainer": true,
+                "type": "container"
+              },
+              "container_da79807886a47c2b24f8ccc57394969f": {
+                "contains": [ ],
+                "icon": "fontawesome:comment-o",
+                "id": "container_da79807886a47c2b24f8ccc57394969f",
+                "label": "Speaks",
+                "name": "container_da79807886a47c2b24f8ccc57394969f",
+                "subContainer": true,
+                "type": "container"
+              }
+            }
+          },
+          "meta": {
+            "format": "multiple_layout",
+            "version": 1
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "details.default.pd_incident",
+        "owner": "b0343cfff6f645adaa9c86a992c93165",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "ref_display": "details.default.pd_incident",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "bucket_definition": {
+        "lv9qpbsc": {
+            "attributes": {
+                "display": "[\"number\",\"title\"]"
+            },
+            "id": "lv9qpbsc",
+            "labels": {
+                "label": "PD Incident",
+                "labelp": "PD Incidents"
+            },
+            "name": "pd_incident",
+            "parent": "srqk6j6s",
+            "schema_tag": "",
+            "slots": [
+                {
+                    "attributes": {
+                        "bucket_name": "4zyrl3rb",
+                        "buckets": "false",
+                        "buckets_use_both": "false",
+                        "choice_type": "typeahead",
+                        "hide_jumpto": "false",
+                        "multiple": "false",
+                        "none_option": "false",
+                        "slot_types": "false",
+                        "slots": "false",
+                        "sort_choices": "0",
+                        "use_parent_bucket": "false"
+                    },
+                    "labels": {
+                        "label": "Service",
+                        "labelp": "Services"
+                    },
+                    "name": "service",
+                    "type": "choice"
+                }
+            ],
+            "type": "classification"
+        }
+    }
+}

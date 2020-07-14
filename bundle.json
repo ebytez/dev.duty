@@ -1,0 +1,28 @@
+{
+   "autoload": [ ],
+   "bundle_name": "duty",
+   "dependencies": [
+      {
+         "id": "ds.base",
+         "version": "1.16.0"
+      },
+      {
+         "id": "ds.sm",
+         "version": "1.2.0"
+      }
+   ],
+   "hidden_bundle": "0",
+   "icon": "",
+   "icon_color": "#999999",
+   "id": "dev.duty",
+   "install_validation_script": "",
+   "page_banner": "",
+   "parametrics_form": null,
+   "platform_version": "",
+   "schema_version": "0.0",
+   "shell_layout": null,
+   "theme": "",
+   "title": "Duty",
+   "vendor": "dev",
+   "version": "0.1.0"
+}

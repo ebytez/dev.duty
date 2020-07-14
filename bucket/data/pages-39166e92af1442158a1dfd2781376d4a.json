@@ -1,0 +1,137 @@
+{
+  "bucket_data": {
+    "pages": {
+      "39166e92af1442158a1dfd2781376d4a": {
+        "created": "1593464834053",
+        "id": "39166e92af1442158a1dfd2781376d4a",
+        "layout": {
+          "config": {
+            "desktop": {
+              "label": "Desktop"
+            }
+          },
+          "layouts": {
+            "desktop": {
+              "__start__": {
+                "contains": [
+                  "component_22afc6b7762c0593b7ad3bde9fec4fe0"
+                ],
+                "h": "100%",
+                "id": "__start__",
+                "type": "container",
+                "w": "100%"
+              },
+              "component_22afc6b7762c0593b7ad3bde9fec4fe0": {
+                "attributes": {
+                  "allow_sorting": "true",
+                  "bucket": "lv9qpbsc",
+                  "columns": [
+                    "number",
+                    "status",
+                    "title",
+                    "priority",
+                    "service",
+                    "company",
+                    "assignment_group",
+                    "assignment_user"
+                  ],
+                  "component": "list",
+                  "disable_actions": "false",
+                  "disable_filterbuilder": "false",
+                  "force_condition": "[]",
+                  "height": 300,
+                  "id": "c816f25470298bf8f2599ded0e52d4dd",
+                  "inline_details": false,
+                  "refresh_interval": 0,
+                  "show_subtenant_data": false,
+                  "show_tags": false,
+                  "skip_url_changes": false,
+                  "sort_descending": "0",
+                  "use_details": "false",
+                  "view": "default"
+                },
+                "component": "list",
+                "h": "100%",
+                "id": "component_22afc6b7762c0593b7ad3bde9fec4fe0",
+                "name": "component_22afc6b7762c0593b7ad3bde9fec4fe0",
+                "needs_subpage_target": false,
+                "type": "component",
+                "w": "100%"
+              }
+            }
+          },
+          "meta": {
+            "format": "multiple_layout",
+            "version": 1
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "list.default.pd_incident",
+        "owner": "b0343cfff6f645adaa9c86a992c93165",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "ref_display": "list.default.pd_incident",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}

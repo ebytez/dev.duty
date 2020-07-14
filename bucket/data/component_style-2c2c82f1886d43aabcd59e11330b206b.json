@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "component_style": {
+      "2c2c82f1886d43aabcd59e11330b206b": {
+        "component": "ds.base:user_profile",
+        "created": "1593462424978",
+        "id": "2c2c82f1886d43aabcd59e11330b206b",
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "",
+        "owner": "b0343cfff6f645adaa9c86a992c93165",
+        "ref_display": "ds.base:user_profile",
+        "schema_version": "0.0",
+        "styles": "separate_file://bucket/data/component_style-2c2c82f1886d43aabcd59e11330b206b-styles.css",
+        "system_updated": "0",
+        "theme": "db7e87beb528408fa6c2e7f38557a6e9"
+      }
+    }
+  }
+}

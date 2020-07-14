@@ -1,0 +1,80 @@
+{
+  "bucket_data": {
+    "xtn89yp4": {
+      "d8c2eebf86714e57a913aab145048d6b": {
+        "bucket": "lv9qpbsc",
+        "created": "1593465096203",
+        "id": "d8c2eebf86714e57a913aab145048d6b",
+        "lifecycle": {
+          "newRecordConfiguration": {
+            "id": "newrecord",
+            "name": "New record",
+            "transitions": [
+              {
+                "label": "Triggered",
+                "name": "New record -> Triggered",
+                "state_from": "newrecord",
+                "state_to": "fddb5c21761fd8949b982a295d9e732b"
+              }
+            ]
+          },
+          "states": [
+            {
+              "bucket": "lv9qpbsc",
+              "id": "fddb5c21761fd8949b982a295d9e732b",
+              "name": "Triggered",
+              "order": 1,
+              "requires_approval": false,
+              "transitions": [
+                {
+                  "id": "7578222b86668243935cacb6322a581d",
+                  "label": "Acknowledged",
+                  "name": "Triggered -> Acknowledged",
+                  "state_from": "fddb5c21761fd8949b982a295d9e732b",
+                  "state_to": "9bf3817438b0f9eebc520d5ee0fc26b8"
+                },
+                {
+                  "id": "3bb6f5c8db8ea2b1e48dbee54e551db6",
+                  "label": "Resolved",
+                  "name": "Triggered -> Resolved",
+                  "state_from": "fddb5c21761fd8949b982a295d9e732b",
+                  "state_to": "bd1fee606789506bbdc052b8abcb1574"
+                }
+              ]
+            },
+            {
+              "bucket": "lv9qpbsc",
+              "id": "9bf3817438b0f9eebc520d5ee0fc26b8",
+              "name": "Acknowledged",
+              "order": 2,
+              "requires_approval": false,
+              "transitions": [
+                {
+                  "id": "0b1dfae884bca7c9f9b2de7076199c19",
+                  "label": "Resolved",
+                  "name": "Acknowledged -> Resolved",
+                  "state_from": "9bf3817438b0f9eebc520d5ee0fc26b8",
+                  "state_to": "bd1fee606789506bbdc052b8abcb1574"
+                }
+              ]
+            },
+            {
+              "bucket": "lv9qpbsc",
+              "id": "bd1fee606789506bbdc052b8abcb1574",
+              "name": "Resolved",
+              "order": 3,
+              "requires_approval": false,
+              "transitions": [ ]
+            }
+          ]
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "owner": "b0343cfff6f645adaa9c86a992c93165",
+        "schema_version": "0.0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

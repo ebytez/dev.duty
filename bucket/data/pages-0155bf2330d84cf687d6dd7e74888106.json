@@ -1,0 +1,217 @@
+{
+  "bucket_data": {
+    "pages": {
+      "0155bf2330d84cf687d6dd7e74888106": {
+        "created": "1593465219844",
+        "id": "0155bf2330d84cf687d6dd7e74888106",
+        "layout": {
+          "config": {
+            "desktop": {
+              "label": "Desktop"
+            }
+          },
+          "layouts": {
+            "desktop": {
+              "__start__": {
+                "contains": [
+                  "component_f36694bd6c4f24c85bdcd67ae573f3e5"
+                ],
+                "h": "100%",
+                "id": "__start__",
+                "layout_type": "page_components",
+                "type": "container",
+                "w": "100%"
+              },
+              "component_f36694bd6c4f24c85bdcd67ae573f3e5": {
+                "attributes": {
+                  "__raw": {
+                    "query": "%{pageVars.q}"
+                  },
+                  "auto_save": false,
+                  "bucket": "lv9qpbsc",
+                  "component": "details",
+                  "csstags": "",
+                  "id": "4a469bbe8f911fe60483985ae800df1e",
+                  "include_actions": "true",
+                  "include_schema_layouts": "",
+                  "layout": {
+                    "layout": {
+                      "layout": [
+                        {
+                          "colData": [
+                            {
+                              "column": 0,
+                              "guid": "3l5v29",
+                              "hidden": "[]",
+                              "title": "Identification"
+                            },
+                            {
+                              "column": 1,
+                              "guid": "lziz3f",
+                              "hidden": "[]",
+                              "title": "Classification"
+                            }
+                          ],
+                          "cols": [
+                            [
+                              {
+                                "name": "number",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "company",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "location",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "urgency",
+                                "type": "slot"
+                              }
+                            ],
+                            [
+                              {
+                                "name": "status",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "service",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "assignment_group",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "assignment_user",
+                                "type": "slot"
+                              }
+                            ]
+                          ],
+                          "columns": 2,
+                          "guid": "x6347h",
+                          "type": "section"
+                        },
+                        {
+                          "colData": [
+                            {
+                              "column": 0
+                            }
+                          ],
+                          "cols": [
+                            [
+                              {
+                                "name": "title",
+                                "type": "slot"
+                              },
+                              {
+                                "name": "description",
+                                "type": "slot"
+                              }
+                            ]
+                          ],
+                          "columns": 1,
+                          "guid": "hkv2qbsa",
+                          "type": "section"
+                        }
+                      ],
+                      "pageData": {
+                        "templateClass": "widgets_with_top_labels",
+                        "title": "New Incident"
+                      },
+                      "version": 1
+                    }
+                  },
+                  "new_record": "false",
+                  "new_record_values": "[]",
+                  "query": "%{pageVars.q}",
+                  "read_only": "false"
+                },
+                "component": "details",
+                "h": "100%",
+                "id": "component_f36694bd6c4f24c85bdcd67ae573f3e5",
+                "name": "component_f36694bd6c4f24c85bdcd67ae573f3e5",
+                "needs_subpage_target": false,
+                "page_loading": false,
+                "type": "component",
+                "w": "100%"
+              }
+            }
+          },
+          "meta": {
+            "format": "multiple_layout",
+            "version": 1
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "newdetails.default.pd_incident",
+        "owner": "b0343cfff6f645adaa9c86a992c93165",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "ref_display": "newdetails.default.pd_incident",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}

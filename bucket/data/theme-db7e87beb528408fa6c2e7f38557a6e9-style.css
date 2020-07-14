@@ -1,0 +1,7 @@
+:root {
+	--topbar-height-ref: 60px;
+}
+
+.actionHeaderLeft .actionHeaderTitle {
+    font-size: var(--font-size-xxl);
+}

@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "theme": {
+      "db7e87beb528408fa6c2e7f38557a6e9": {
+        "created": "1593460523013",
+        "default_properties": "",
+        "id": "db7e87beb528408fa6c2e7f38557a6e9",
+        "is_default": "0",
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "duty theme",
+        "owner": "b0343cfff6f645adaa9c86a992c93165",
+        "ref_display": "duty theme",
+        "schema_version": "0.0",
+        "style": "separate_file://bucket/data/theme-db7e87beb528408fa6c2e7f38557a6e9-style.css",
+        "system_updated": "0"
+      }
+    }
+  }
+}

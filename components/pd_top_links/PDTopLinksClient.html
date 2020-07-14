@@ -1,0 +1,38 @@
+<!DOCTYPE f8component>
+
+<definition>
+	{
+		"id": "pd_top_links",
+		"label": "PD Top Links",
+	    "type": "bar_component",
+		"renderable": "true",
+		"className": "PDTopLinksServer",
+	    "dependencies": ["vue"]
+	}
+</definition>
+
+<style>
+	.pd-top-links {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+		margin-right: 300px;
+	}
+	
+	.top-link {
+		align-items: center;
+		justify-content: center;
+		padding: 12px 20px;
+	}
+	
+	.top-link:hover {
+		background: var(--color-light);
+		cursor: pointer;
+	}
+</style>
+
+<script>
+    const PDTopLinksComponent = require('pd_top_links/PDTopLinksComponent');
+    exports.component = ComponentUI.createVueComponent(PDTopLinksComponent, 4);
+</script>

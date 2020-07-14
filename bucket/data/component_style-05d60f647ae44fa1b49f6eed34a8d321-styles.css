@@ -1,0 +1,11 @@
+:root {
+	--indicator-bar-color: #b4d4e7;
+	
+	--topbar-bg-color-level0: var(--light-bg-color-level0); 
+    --topbar-bg-color-level1: var(--light-bg-color-level0); 
+    --topbar-bg-color-level2: var(--light-bg-color-level0);
+    --topbar-bg-color-level3: var(--light-bg-color-level1);
+    --topbar-bg-color-level4: var(--light-bg-color-level1);  
+    --topbar-bg-color-level5: var(--light-bg-color-level5); 
+    --topbar-font-color-main: var(--light-font-color-main); 
+}

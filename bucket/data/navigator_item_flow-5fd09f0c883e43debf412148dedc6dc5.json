@@ -1,0 +1,24 @@
+{
+  "bucket_data": {
+    "navigator_item_flow": {
+      "5fd09f0c883e43debf412148dedc6dc5": {
+        "color": "#d51515",
+        "created": "1593466428251",
+        "description": "",
+        "flow": "separate_file://bucket/data/navigator_item_flow-5fd09f0c883e43debf412148dedc6dc5-flow.js",
+        "icon": "fontawesome:plus",
+        "id": "5fd09f0c883e43debf412148dedc6dc5",
+        "label": "New Incident",
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "order": "0",
+        "owner": "b0343cfff6f645adaa9c86a992c93165",
+        "parent": "05a50621f7664410bbc42cbd7d8390e6",
+        "ref_display": "New Incident",
+        "schema_version": "0.0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "bucket_data": {
+    "4dzwltxn": {
+      "f06a9369a3a24a24a02035fccec6f397": {
+        "area": "",
+        "created": "1593530777695",
+        "icon": "",
+        "id": "f06a9369a3a24a24a02035fccec6f397",
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "PD Navigation",
+        "nav": {
+          "bundle": "dev.duty",
+          "id": "",
+          "items": [
+            {
+              "bucket": "lv9qpbsc",
+              "condition": "[]",
+              "icon": "fontawesome:list-alt",
+              "id": "",
+              "label": "Incidents",
+              "newId": "f7d4ed9decf53088d12d0553860bc34d",
+              "sort_direction": "ascending",
+              "submenu": "0",
+              "type": "navigator_item_list",
+              "visibility": "admins"
+            },
+            {
+              "bucket": "dk1z66mx",
+              "condition": "[]",
+              "icon": "fontawesome:exclamation-circle",
+              "id": "",
+              "label": "Alerts",
+              "newId": "f7d89bf4b97640b2124fa89cd023bd2a",
+              "sort_direction": "ascending",
+              "submenu": "0",
+              "type": "navigator_item_list",
+              "visibility": "admins"
+            }
+          ],
+          "specify_access": true
+        },
+        "nav_type": "default",
+        "owner": "b1b3f2d51b9b4d96ab5404894a2a8544",
+        "position": "0",
+        "ref_display": "PD Navigation",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "top_level_menu": "1"
+      }
+    }
+  }
+}
